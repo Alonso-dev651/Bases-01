@@ -7,7 +7,7 @@ public class Practice7 {
         Scanner scanner = new Scanner(System.in);
         int numeros[][] = new int[3][3];
 
-        System.out.println("Ingrese 10 numero");
+        System.out.println("Ingrese 9 numeros para la matriz: ");
         for (int i = 0; i <= 2; i++) {
             for (int j = 0; j <= 2; j++) {
                 int num = scanner.nextInt();
