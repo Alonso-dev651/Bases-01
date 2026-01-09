@@ -8,11 +8,11 @@ public class Practice6 {
         int pass = 0;
 
         System.out.println("Login simple");
-        while (pass != 1234) {
+        do {
             System.out.print("Ingrese su contraseña: ");
             pass = scanner.nextInt();
             if (pass != 1234) System.out.println("Incorrecto, intente de nuevo");
-        }
+        } while (pass != 1234);
 
         System.out.println("Acceso concedido");
     }
