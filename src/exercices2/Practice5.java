@@ -12,9 +12,9 @@ public class Practice5 {
         while (condicion != 0) {
             System.out.print("Ingrese su numero: ");
             condicion = scanner.nextInt();
-            contador++;
+            if (condicion != 0) contador++;
         }
 
-        System.out.println("Ingresaste " + (contador - 1) + " numeros");
+        System.out.println("Ingresaste " + contador + " numeros");
     }
 }
